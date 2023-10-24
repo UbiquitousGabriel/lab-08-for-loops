@@ -11,4 +11,3 @@ for answer in range(0, 4, 1):
         print("Updating highest number...")
     else:
         print("This is not the highest number!")
-print("The highest number entered is: " + str(highestNum))
