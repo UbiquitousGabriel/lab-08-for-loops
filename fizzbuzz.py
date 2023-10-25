@@ -1,5 +1,7 @@
 for listedNum in range(1,101):
-    if listedNum %3 == 0:
+    if listedNum %3 == 0 and listedNum %5 == 0:
+        print("FizzBuzz..")
+    elif listedNum %3 == 0:
         print("Fizz..")
     elif listedNum %5 == 0:
         print("Buzz..")

@@ -8,11 +8,14 @@
 <body>
     <script>
         for (var listedNum=1; listedNum<=100 ; listedNum+=1){
-            if (listedNum%3 == 0) {
-                console.log("Fizz");
+            if (listedNum%3 == 0 && listedNum%5 == 0) {
+                console.log("FizzBuzz..");
             } else if (listedNum%5 ==0) {
                 console.log("Buzz");
-            } else {
+            } else if (listedNum%3 == 0) {
+                console.log("Fizz");
+            }
+            else {
                 console.log(listedNum)
             }
         }
